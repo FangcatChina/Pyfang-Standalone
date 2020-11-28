@@ -16,7 +16,7 @@
 
 1.  将主程序放入单独文件夹中
 2.  在文件夹下新建file.pfr和while.con文件
-3.  在file.pfr文件中写入Pyfang代码，在while.con中设置是否循环执行程序，是为True，否为False。
+3.  在file.pfr文件中写入Pyfang代码（必须使用File-Runner进行代码编写），在while.con中设置是否循环执行程序，是为True，否为False。
 4.  双击主程序即可独立运行Pyfang程序。
 
 #### 参与贡献
