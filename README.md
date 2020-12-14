@@ -1,5 +1,8 @@
 # Pyfang Standalone
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://www.gnu.org/licenses/mit)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/fangcatchina/pyfang-standalone)](https://github.com/FangcatChina/pyfang-standalone/)
+
 #### 介绍
 让Pyfang语言文件独立运行！
 
