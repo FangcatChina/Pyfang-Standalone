@@ -1,6 +1,7 @@
 import easygui as es
 import turtle as tu
 import tkinter as tk
+import random as rd
 bl = []
 bls = []
 def valuecheck(checks):
@@ -29,6 +30,10 @@ def valuecheck(checks):
                         return(False)
                 elif checks == 'enter':
                     return(es.enterbox('Enter'))
+                elif checks == 'list':
+                    return(lista)
+                elif checks.split('#')[0] == 'randint':
+                    return(rd.randint(valuecheck(checks.split('#')[1]),valuecheck(checks.split('#')[2])))
                 else:
                     return('ValueError!')
 def pyfangrun(command):
@@ -68,6 +73,10 @@ def pyfangrun(command):
             t2.goto(int(splited[1]),int(splited[2]))
         elif splited[0] == 'msgbox':
             es.msgbox(valuecheck(splited[1]),valuecheck(splited[2]),valuecheck(splited[3]))
+        elif splited[0] == 'listadd':
+            lista.append(valuecheck(splited[1]))
+        elif splited[0] == 'listpop':
+            lista.remove(valuecheck(splited[1]))
         else:
             es.msgbox("NameError: name "+splited[0]+"' is not defined",'Error')
     elif splited[0] == 'down':
@@ -91,7 +100,7 @@ t2 = tu.RawPen(cv3)
 t2.shape('turtle')
 t1.hideturtle()
 t1.penup()
-t1.goto(-350,70)
+t1.goto(-350,100)
 t1.color('green')
 t1.write('''
   _____        __                  
@@ -116,3 +125,4 @@ if wh.readlines()[0] == 'True':
 else:
     for i in f.readlines()[0].split('|'):
         pyfangrun(i)
+
