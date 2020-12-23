@@ -125,4 +125,3 @@ if wh.readlines()[0] == 'True':
 else:
     for i in f.readlines()[0].split('|'):
         pyfangrun(i)
-
