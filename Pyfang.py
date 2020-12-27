@@ -2,6 +2,7 @@ import easygui as es
 import turtle as tu
 import tkinter as tk
 import random as rd
+import os
 bl = []
 bls = []
 def valuecheck(checks):
@@ -77,6 +78,10 @@ def pyfangrun(command):
             lista.append(valuecheck(splited[1]))
         elif splited[0] == 'listpop':
             lista.remove(valuecheck(splited[1]))
+        elif splited[0] == 'use':
+            os.system(splited[1])
+        elif splited[0] == 'sleep':
+            time.sleep(valuecheck(splited[1]))
         else:
             es.msgbox("NameError: name "+splited[0]+"' is not defined",'Error')
     elif splited[0] == 'down':
