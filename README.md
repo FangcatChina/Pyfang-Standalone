@@ -2,6 +2,8 @@
 
 ![GitHub](https://img.shields.io/github/license/fangcatchina/pyfang-standalone)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/fangcatchina/pyfang-standalone)](https://github.com/FangcatChina/pyfang-standalone/)
+![GitHub Release Date](https://img.shields.io/github/release-date/fangcatchina/pyfang-standalone)
+![GitHub last commit](https://img.shields.io/github/last-commit/fangcatchina/pyfang-standalone)
 ## System Support/系统支持
 
 ![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
