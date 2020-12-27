@@ -2,6 +2,17 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://www.gnu.org/licenses/mit)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/fangcatchina/pyfang-standalone)](https://github.com/FangcatChina/pyfang-standalone/)
+## System Support/系统支持
+
+![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
+![Mac OS](https://img.shields.io/badge/Mac%20OS-Not%20Supported-orange)
+![Linux](https://img.shields.io/badge/Linux-Not%20Supported-orange)
+
+### .Py File
+![Python](https://img.shields.io/badge/Python-3.7-blue)
+![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
+![Mac OS](https://img.shields.io/badge/Mac%20OS-Supported-brightgreen)
+![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen)
 
 #### 介绍
 让Pyfang语言文件独立运行！
